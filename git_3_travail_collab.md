@@ -1,20 +1,12 @@
-
-title: Introduction Python et Git
+---
+title: Introduction Git
 class: animation-fade
 layout: true
-
-<!-- This slide will serve as the base layout for all your slides -->
-<!--
-.bottom-bar[
-  {{title}}
-]
--->
-
 ---
 
-class: impact
+<!-- class: impact -->
 
-# Git - deuxième partie
+# Git - troisième partie
 
 ## Collaborer à l'aide de gitlab
 
@@ -24,9 +16,9 @@ class: impact
 
 Git devient indispensable lorsque :
 
-- L'équipe avec laquelle vous collaborez est grande ...
-- Changeante ...
-- Le logiciel évolue dans le temps et en taille. 
+- L'équipe avec laquelle vous collaborez est grande...
+- Changeante...
+- Le logiciel évolue dans le temps et en taille.
 
 ---
 
@@ -34,9 +26,10 @@ Git devient indispensable lorsque :
 
 ---
 
-# Github.com
-
-... est une forge logicielle en forme de réseau social.
+- Github.com
+  - ... est une forge logicielle en forme de réseau social.
+- Gitlab
+  - ... est une forge logicielle concurrente, et qui est open source : on peut en installer sa propre instance (ex: framagit.org). La plus grosse instance Gitlab est gitlab.com.
 
 ---
 
@@ -46,17 +39,19 @@ L'intégration continue.
 
 S'assurer automatiquement de la qualité du code
 
-La forge est la source et autour vienne se greffer
+La forge est la source et autour viennent se greffer :
 
+- _forge logicielle_
 
-- forge logicielle
-    - github
-    - gitlab/framagit
+  - Github
+  - Gitlab/Framagit
 
-- merge request, valider du code à plusieurs
+- _merge requests_ : valider du code à plusieurs
 
-- pull, Pull!, GIT PULL
+- **_`git fetch`_** : récupérer la dernière version du dépôt distant (sans rien changer à son dépôt local)
+- **_`git pull`_** : récupérer la dernière version de la branche actuelle depuis le dépôt distant (bouge le `HEAD`)
 
-- Cycles de développement : L'exemple de Gitlab flow
-    - notre version simplifié master + feature branch
+<!-- FIXME: illustrations d'un flow et mention de différents flows -->
 
+- Cycles de développement : l'exemple de Gitlab flow
+  - notre version simplifiée master + feature branch
