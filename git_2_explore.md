@@ -4,6 +4,9 @@ class: animation-fade
 layout: true
 ---
 
+<!-- FIXME: parler des branches et de ses commandes (partie 3?) mais surtout  -->
+<!-- FIXME: parler de reset -->
+
 <!-- class: impact -->
 
 # 2. Explorer un dépôt existant

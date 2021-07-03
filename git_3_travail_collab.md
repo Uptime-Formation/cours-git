@@ -8,6 +8,9 @@ layout: true
 
 # Git - troisième partie
 
+<!-- FIXME: parler des branches et de ses commandes (partie 2?) mais surtout  -->
+<!-- FIXME: parler de rebase et de merge  -->
+
 ## Collaborer à l'aide de gitlab
 
 ---
@@ -51,6 +54,7 @@ La forge est la source et autour viennent se greffer :
 - **_`git fetch`_** : récupérer la dernière version du dépôt distant (sans rien changer à son dépôt local)
 - **_`git pull`_** : récupérer la dernière version de la branche actuelle depuis le dépôt distant (bouge le `HEAD`)
 
+<!-- FIXME: parler de git push -->
 <!-- FIXME: illustrations d'un flow et mention de différents flows -->
 
 - Cycles de développement : l'exemple de Gitlab flow
