@@ -102,7 +102,7 @@ On va utiliser **les trois** car c'est nécessaires pour bien comprendre comment
 
 - **git** en ligne de commande souvent : il faut **absolument connaître** les fonctions de base pour travailler sur un projet de code aujourd'hui
 - **VSCode** : un éditeur de texte qui a des fonctions pratiques pour visualiser les modifications git et l'historique d'un projet, afficher les conflits d'édition.
-- **Gitlab** sur l'instance `gitlab.com` : une forge logicielle open-source. On va l'utiliser pour collaborer sur du code existant.
+- **Gitlab** sur l'instance `framagit.org` : une forge logicielle open-source. On va l'utiliser pour collaborer sur du code existant. Framagit est l'instance de l'association Framasoft qui milite pour le libre et un Internet décentralisé.
 
 ---
 

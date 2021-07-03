@@ -86,9 +86,7 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 
 # Explorer un dépôt
 
-# Démonstration
-
-<!-- FIXME: ??? -->
+<!-- # Démonstration -->
 
 <!-- FIXME: Utiliser par exemple le dépôt des exercices Python. pour revenir au début sur du code que les étudiants connaissent. Ou la Flask app ?-->
 
