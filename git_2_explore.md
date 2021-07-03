@@ -1,5 +1,5 @@
 ---
-title: Introduction Python et Git
+title: Introduction Git
 class: animation-fade
 layout: true
 ---
