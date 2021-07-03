@@ -38,7 +38,7 @@ layout: true
 # Comment gérer du code logiciel ?
 
 3. **Version** du logiciel :
-   - Le développement est un travail **itératif** = contruction petit à petit => pleins de versions !
+   - Le développement est un travail **itératif** = contruction petit à petit => plein de versions !
    - On veut ajouter une nouvelle fonctionnalité à un logiciel, mais continuer à distribuer l'ancienne version et l'améliorer.
    - On veut créer une version de test pour que des utilisateur·trices avancé·es trouvent des bugs
 
@@ -46,7 +46,7 @@ layout: true
 
 # Solution : un gestionnaire de versions
 
-## 1. Suit **chaque modification** faite à des **fichiers**, en général des **fichiers texte** (souvent de code mais peut être autre chose : de la documentation, par exemple en format Markdown, plus rarement d'autres fichiers, comme des documents Word).
+## 1. Suit **chaque modification** faite à des **fichiers**, en général des **fichiers texte** (souvent de code mais peut être autre chose : de la documentation, par exemple en format Markdown comme ce cours, plus rarement d'autres fichiers, comme des documents Word).
 
 ![](img/git_diff.png)
 
