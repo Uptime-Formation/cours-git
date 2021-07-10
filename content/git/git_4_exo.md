@@ -1,5 +1,5 @@
 ---
-title: Git - Quatrième partie - Forges Git - Exercices
+title: Git 4 - Forges Git - Exercices
 weight: 410
 ---
 

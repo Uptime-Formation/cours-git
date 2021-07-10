@@ -1,5 +1,5 @@
 ---
-title: Git - Cinquième partie - Rebase et merge -Exercices
+title: Git 5 - Rebase et merge -Exercices
 weight: 510
 ---
 

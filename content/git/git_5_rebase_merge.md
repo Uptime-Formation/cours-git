@@ -1,5 +1,5 @@
 ---
-title: Git - Cinquième partie - Rebase et Merge
+title: Git 5 - Rebase et Merge
 class: animation-fade
 weight: 510
 ---

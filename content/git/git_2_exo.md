@@ -1,5 +1,5 @@
 ---
-title: "Git - Partie 2 - Explorer un dépôt - Exercices"
+title: "Git 2 - Explorer un dépôt - Exercices"
 draft: false
 weight: 210
 ---

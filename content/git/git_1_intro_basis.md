@@ -1,5 +1,5 @@
 ---
-title: "Git - Partie 1"
+title: "Git 1 - Introduction"
 # class: animation-fade
 # layout: true
 weight: 10

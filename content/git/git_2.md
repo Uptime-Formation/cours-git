@@ -1,5 +1,5 @@
 ---
-title: "Git - Partie 2 - Explorer un dépôt"
+title: "Git 2 - Explorer un dépôt"
 class: animation-fade
 layout: true
 weight: 200

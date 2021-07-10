@@ -1,5 +1,5 @@
 ---
-title: Git - Quatrième partie - Forges Git
+title: Git 4 - Forges Git
 weight: 400
 ---
 

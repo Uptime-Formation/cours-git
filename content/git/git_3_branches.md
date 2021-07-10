@@ -1,5 +1,5 @@
 ---
-title: Git - Troisième partie - Les branches
+title: Git 3 - Les branches
 weight: 310
 ---
 

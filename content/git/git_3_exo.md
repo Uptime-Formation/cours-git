@@ -1,5 +1,5 @@
 ---
-title: Git - Troisième partie - Les branches - Exercices
+title: Git 3 - Les branches - Exercices
 weight: 320
 ---
 
