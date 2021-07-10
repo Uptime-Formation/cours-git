@@ -1,37 +1,43 @@
 ---
-title: "Git - Partie1"
+title: "Git - Partie 1"
 visible: true
 ---
 
 # Créer un projet git
 
-Durant ces exercices utilisez git en ligne de commande (sans interface graphique) l'objectif est de pratiquer les différentes commandes de base git
+Durant ces exercices nous allons utiliser Git en ligne de commande (sans interface graphique) : l'objectif est de pratiquer les différentes commandes de base git
+
+### Installer Git
+
+`git` est souvent déjà installé sur Linux. Mais si ce n'est pas le cas, il suffit d'installer le paquet `git`, par exemple avec `apt install git`.
 
 ### Initialiser le dépôt
 
 <!-- FIXME: URL microblog ou prendre un dossier qu'ils ont déjà -->
 
-- Reprenez la solution finale de l'app microblog.
-<!-- - Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3) -->
+- Nous allons reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python.
+  <!-- - la solution finale de l'app microblog. -->
+  <!-- - Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3) -->
 
-<!-- - En ligne de commande créez le dossier de code de votre `exercice_poo`. -->
+- En ligne de commande créez le dossier de code de votre `tp1_git`.
 
 - Chargez ce dossier avec VSCode.
   <!-- - FIXME: -->
-  <!-- - Créez un nouveau fichier `about.py` -->
-- Copier à l'intérieur le code nécessaire.
+- Créez un nouveau fichier dans ce dossier
+- Copier à l'intérieur de ce fichier le code nécessaire.
 - Lancez `git status`. Quel est le problème ?
 - Initialisez le dépot de code avec la commande `git init`.
 - Utilisez ensuite `git status` pour voir l'état de votre dépôt.
 
-### Dire à git de suivre un fichier
+### Dire à Git de suivre un fichier
 
-Pour le moment git ne versionne aucun fichier du dépôt comme le confirme la commande `git status`.
+Pour le moment Git ne versionne aucun fichier du dépôt comme le confirme la commande `git status`.
 
 - Utilisez `git add <nom_fichier>` sur le fichier. Puis faites à nouveau `git status`. Le fichier est passé à l'état suivi (_tracked_).
 <!-- FIXME: autre fichier -->
-- Créez un nouveau fichier python `afficher_tables.py` dans lequel vous importez votre classe et l'utilisez pour afficher les tables de 1 à 10.
+- Créez un nouveau fichier et écrivez quelque chose à l'intérieur (ou copiez un fichier situé en dehors de ce dossier vers ce dossier).
 <!-- - Lancez votre script `afficher_tables.py` pour vérifier -->
+- Lancez votre script Python pour vérifier
 - Faites `git status` à nouveau. Que s'est-il passé ?
 
 ### Faire votre premier commit
@@ -52,8 +58,11 @@ git config --global user.email "<votre email>"
 - Utiliser `git add` avec l'option `-A` pour ajouter tous les fichiers actuels de votre projet.
 - Qu'affiche `git status` ?
 - Lancez à nouveau `git commit` avec un message adéquat.
-<!-- FIXME: ah y a pycache parce qu'on a lancé le code ? -->
-- A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
+  <!-- FIXME: ah y a pycache parce qu'on a lancé le code ? -->
+
+  - A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
+
+  <!-- FIXME: ah y a pycache parce qu'on a lancé le code ? -->
 
 ### Supprimer un fichier
 
