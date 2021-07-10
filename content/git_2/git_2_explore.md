@@ -29,13 +29,13 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 
 ## L'historique d'un dépôt
 
-![](img/tig_history.png)
+![](../../images/tig_history.png)
 
 ---
 
 ## `master` et les branches d'un dépôt
 
-![](img/git_branches_2.png)
+![](../../images/git_branches_2.png)
 
 - Un dépôt git permet d'avoir **plusieurs historiques** en parallèle qu'on appelle des **branches**. Un dépôt git ressemble à un arbre.
 
@@ -64,7 +64,7 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 
 ## Déplacer HEAD dans l'historique
 
-![](img/head_point_3.jpg)
+![](../../images/head_point_3.jpg)
 
 ---
 

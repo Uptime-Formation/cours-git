@@ -44,7 +44,7 @@ draft: false
 
 ## 1. Suit **chaque modification** faite à des **fichiers**, en général des **fichiers texte** (souvent de code mais peut être autre chose : de la documentation, par exemple en format Markdown comme ce cours, plus rarement d'autres fichiers, comme des documents Word).
 
-![](img/git_diff.png)
+![](../../images/git_diff.png)
 
 ---
 
@@ -54,7 +54,7 @@ draft: false
 
 Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **beaucoup plus avancé**.
 
-![](img/merge_3_versions.png)
+![](../../images/merge_3_versions.png)
 
 ---
 
@@ -62,7 +62,7 @@ Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **
 
 ## 3. Permet de suivre **qui** a fait quelle modification, **partager les modifications** avec les autres, **régler les conflits d'édition**
 
-![](img/gitkraken.png)
+![](../../images/gitkraken.png)
 
 ---
 
@@ -149,9 +149,9 @@ Vous êtes dans un dossier avec du code :
 
 ## Cycle des fichiers
 
-![](img/commit_cycle.png)
+![](../../images/commit_cycle.png)
 
-![](img/git_file_statuses.jpg)
+![](../../images/git_file_statuses.jpg)
 
 - `git rm fichier` pour désindexer.
 - _Tracked_ = suivi
