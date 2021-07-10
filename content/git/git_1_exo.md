@@ -1,5 +1,6 @@
 ---
 title: "Git - Partie 1 - Exercices"
+weight: 11
 ---
 
 # Créer un projet git
