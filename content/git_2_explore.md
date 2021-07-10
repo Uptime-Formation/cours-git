@@ -17,7 +17,7 @@ layout: true
 
 Il s'agit de **télécharger** le dépôt d'un **logiciel** depuis Internet en créant un dossier contenant le code ainsi que son **historique Git**:
 
-- `git clone <url dépot>` puis `cd <dépôt>` pour aller dans le dossier du dépôt (par exemple `git clone https://github.com/YunoHost/gertrude/` et `cd gertrude`)
+- `git clone <url dépot>` puis `cd <dépôt>` pour aller dans le dossier du dépôt (par exemple `git clone https://github.com/YunoHost/gertrude/` et `cd gertrude`, ou bien `https://github.com/spring-projects/spring-petclinic.git`)
 - `git log` pour voir la liste des commits
 - `git checkout <commit num>` pour vous **déplacer** au niveau d'un commit : le code dans le dépôt **change**.
 - `git diff <commit_1> <commit_2>` pour voir ce qui a changé entre deux commits.
@@ -88,7 +88,8 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 # Explorer un dépôt
 
 <!-- # Démonstration -->
-
+<!-- https://github.com/spring-projects/spring-petclinic.git -->
+<!-- https://github.com/miguelgrinberg/microblog -->
 <!-- FIXME: Utiliser par exemple le dépôt des exercices Python. pour revenir au début sur du code que les étudiants connaissent. Ou la Flask app ?-->
 
 ---
@@ -98,3 +99,5 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 # Deuxième TP
 
 ---
+
+<!-- FIXME: parler des tags -->
