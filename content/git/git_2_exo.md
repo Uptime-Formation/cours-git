@@ -1,6 +1,7 @@
 ---
-title: "Git - Partie2 - Explorer un dépôt"
-visible: true
+title: "Git - Partie 2 - Explorer un dépôt - Exercices"
+draft: false
+weight: 210
 ---
 
 Durant cette partie nous allons explorer un dépôt git existant grâce aux commandes git de base mais également grâce au GUI (interface graphique) de VSCode.
@@ -61,7 +62,8 @@ Nous allons maintenant créer une branche en repartant du début du projet pour 
 
 - La commande précédente a effacé toutes les modifications du dépôt des 106 derniers commits. Faites bien attention avec cette commande `git reset --hard` ! Dans notre cas ce n'est pas un problème car ces commits sont disponibles sur le serveur. Pour récupérer les commits effacés utilisez `git pull`. `pull` va récupérer les modifications depuis le serveur.
 
-- Pour créer une branche plus "doucement" nous allons a nouveau déplacer HEAD au niveau du commit d'introduction du `Jenkinsfile`.
+<!-- FIXME: -->
+<!-- - Pour créer une branche plus "doucement" nous allons a nouveau déplacer HEAD au niveau du commit d'introduction du `Jenkinsfile`. -->
 
 - Créez une nouvelle branche avec `git checkout -b <nom branche>` appelez la **`about-page`**.
 

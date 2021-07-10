@@ -1,6 +1,5 @@
 ---
-title: "Git - Partie 1"
-visible: true
+title: "Git - Partie 1 - Exercices"
 ---
 
 # Créer un projet git

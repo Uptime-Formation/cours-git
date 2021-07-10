@@ -1,5 +1,6 @@
 ---
-title: "Git - Partie3"
+title: Git - Cinquième partie - Rebase et merge -Exercices
+weight: 510
 ---
 
 <!-- Le faire sur Github ET gitlab ? -->

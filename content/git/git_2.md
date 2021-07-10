@@ -1,19 +1,14 @@
 ---
-title: Introduction Git
+title: "Git - Partie 2 - Explorer un dépôt"
 class: animation-fade
 layout: true
+weight: 200
 ---
 
 <!-- FIXME: parler des branches et de ses commandes (partie 3?) mais surtout  -->
 <!-- FIXME: parler de reset -->
 
 <!-- class: impact -->
-
-# 2. Explorer un dépôt existant
-
----
-
-# 2. Explorer un dépôt existant
 
 Il s'agit de **télécharger** le dépôt d'un **logiciel** depuis Internet en créant un dossier contenant le code ainsi que son **historique Git**:
 
@@ -39,9 +34,9 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 
 - Un dépôt git permet d'avoir **plusieurs historiques** en parallèle qu'on appelle des **branches**. Un dépôt git ressemble à un arbre.
 
-- ## La **branche principale** s'appelle **`master`** dans git (par convention), parfois `main`.
+- La **branche principale** s'appelle **`master`** dans git (par convention), parfois `main`.
 
-- ## Ça commence à devenir compliqué ! Mais on va souvent travailler avec seulement **deux branches** 😌
+- Ça commence à devenir compliqué ! Mais on va souvent travailler avec seulement **deux branches** 😌
 
 - **master** + **une branche** pour votre travail en cours.
 
@@ -50,7 +45,7 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 ## Remonter le temps, déplacer HEAD
 
 - Si git **mémorise les commits successifs** du dépôt c'est en particulier pour permettre de "_remonter le temps_", c'est-à-dire **remettre le code** du dépôt **dans un état antérieur**.
-  - `git checkout <num_commit>`. L'historique se met également à jour.
+  - `git checkout <commit>`. L'historique se met également à jour.
   - `git diff` permet à tout moment d'afficher les différences entre deux points du dépôt.
 
 --

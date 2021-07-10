@@ -1,5 +1,6 @@
 ---
-title: "Git - Partie3"
+title: Git - Troisième partie - Les branches - Exercices
+weight: 320
 ---
 
 <!-- Le faire sur Github ET gitlab ? -->

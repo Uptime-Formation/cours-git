@@ -9,6 +9,7 @@ draft: false
 
 ## Liens
 
+- https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
 - https://github.com/gitless-vcs/gitless
 - https://rogerdudler.github.io/git-guide/
 - https://missing.csail.mit.edu/2020/version-control/

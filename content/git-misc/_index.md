@@ -1,6 +1,6 @@
 ---
-title: "Introduction Git"
-weight: 1
+title: "Git - Ressources"
+weight: 1000
 # pre: "<i class='fab fa-git'></i> - "
 pre: "<i class='fas fa-code-branch'></i> - "
 chapter: true

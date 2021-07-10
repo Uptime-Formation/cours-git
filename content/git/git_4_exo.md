@@ -1,5 +1,6 @@
 ---
-title: "Git - Partie3"
+title: Git - Quatrième partie - Forges Git - Exercices
+weight: 410
 ---
 
 <!-- Le faire sur Github ET gitlab ? -->

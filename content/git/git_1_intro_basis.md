@@ -1,10 +1,8 @@
 ---
-title: "Introduction Git"
+title: "Git - Partie 1"
 # class: animation-fade
 # layout: true
-weight: 1
-pre: "<i class='fa fa-code-fork'></i> - "
-chapter: true
+weight: 10
 draft: false
 ---
 
@@ -158,6 +156,8 @@ Vous êtes dans un dossier avec du code :
 - _Staged_ = inclus (dans le prochain commit)
 
 ---
+
+<!-- FIXME: expliquer que branch, tag ou commit c'est toujours uen ref à un endroit dans l'arbre, pas un diff de code -->
 
 <!-- class: impact -->
 

@@ -1,12 +1,8 @@
 ---
-title: Introduction Git
+title: Git - Cinquième partie - Rebase et Merge
 class: animation-fade
-layout: true
+weight: 510
 ---
-
-<!-- class: impact -->
-
-# Git - cinquième partie
 
 <!-- FIXME: parler des branches et de ses commandes (partie 2?) mais surtout  -->
 <!-- FIXME: parler de rebase et de merge  -->

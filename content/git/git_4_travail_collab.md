@@ -1,7 +1,6 @@
 ---
-title: Introduction Git
-class: animation-fade
-layout: true
+title: Git - Quatrième partie - Forges Git
+weight: 400
 ---
 
 # Git - quatrième partie
@@ -57,7 +56,9 @@ La forge est la source et autour viennent se greffer :
 
 ## Cycles de développement :
 
-### l'exemple de Gitlab flow
+### l'exemple de Github flow
+
+<!-- Github flow -->
 
 - notre version simplifiée master + feature branch
 
