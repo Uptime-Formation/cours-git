@@ -1,7 +1,8 @@
 ---
 title: "Introduction Git"
 weight: 1
-pre: "<i class="fas fa-code-branch"></i> - "
+# pre: "<i class='fab fa-git'></i> - "
+pre: "<i class='fas fa-code-branch'></i> - "
 chapter: true
 draft: false
 ---
