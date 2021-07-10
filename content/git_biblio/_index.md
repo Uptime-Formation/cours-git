@@ -2,7 +2,7 @@
 # draft: true
 title: "Bibliographie Git"
 weight: 10
-pre: "<i class="fas fa-code-branch"></i> - "
+pre: "<i class='fab fa-git"></i> - "
 chapter: true
 draft: false
 ---
