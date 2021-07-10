@@ -1,7 +1,7 @@
 ---
-title: Introduction Git
-class: animation-fade
-layout: true
+title: "Introduction Git"
+# class: animation-fade
+# layout: true
 weight: 1
 pre: "<i class='fa fa-code-fork'></i> - "
 chapter: true
