@@ -9,12 +9,16 @@ Durant ces exercices utilisez git en ligne de commande (sans interface graphique
 
 ### Initialiser le dépôt
 
-<!-- FIXME: dossier d'exemple, le créer ex nihilo à partir de ce qu'iels ont déjà ? -->
+<!-- FIXME: URL microblog ou prendre un dossier qu'ils ont déjà -->
 
-- Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3)
-- En ligne de commande créez le dossier de code de votre `exercice_poo`.
+- Reprenez la solution finale de l'app microblog.
+<!-- - Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3) -->
+
+<!-- - En ligne de commande créez le dossier de code de votre `exercice_poo`. -->
+
 - Chargez ce dossier avec VSCode.
-- Créez un nouveau fichier `table_de_multiplication.py`
+  <!-- - FIXME: -->
+  <!-- - Créez un nouveau fichier `about.py` -->
 - Copier à l'intérieur le code nécessaire.
 - Lancez `git status`. Quel est le problème ?
 - Initialisez le dépot de code avec la commande `git init`.

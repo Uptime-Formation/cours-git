@@ -33,3 +33,5 @@ Les fusions de branche peuvent s'effectuer en local sur la machine ou sur la for
 
 <!-- FIXME: donner un exo de ça et dire de faire les 2 -->
 <!-- - Les deux premiers chapitres seront à merger en local et les deux suivants sur framagit. -->
+
+<!-- FIXME: ajout autre remote, changement URL d'origine et ajout de celle de grinberg -->
