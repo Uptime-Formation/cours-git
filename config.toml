@@ -1,0 +1,25 @@
+baseURL = "https://git.uptime-formation.fr/"
+languageCode = "fr-FR"
+title = "Formations Uptime"
+theme = ["hugo-theme-learn", "reveal-hugo"]
+
+# Pour la fonctionnalité de recherche
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+editURL = "https://github.com/uptime-formation/cours-git"
+globalTitle = "Supports Git - 2021"
+
+[params.reveal_hugo]
+custom_theme = "reveal-hugo/themes/robot-lung.css"
+
+# [menu.shortcuts]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
