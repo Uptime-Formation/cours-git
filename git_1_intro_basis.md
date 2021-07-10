@@ -64,7 +64,7 @@ Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **
 
 # Solution : un gestionnaire de versions
 
-## 3. Permet suivre **qui** a fait quelle modification, **partager les modifications** avec les autres, **régler les conflits d'édition**
+## 3. Permet de suivre **qui** a fait quelle modification, **partager les modifications** avec les autres, **régler les conflits d'édition**
 
 ![](img/gitkraken.png)
 
@@ -79,9 +79,11 @@ Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **
 - Fait cohabiter plusieurs versions
 - Aide à résoudre les conflits de code
 
+Pour la petite histoire, Git a été inventé en 2005 par Linus Torvalds, le créateur de Linux, pour garder la trace des propositions de modification du code de Linux !
+
 ---
 
-# Écosystème git :
+# Écosystème Git :
 
 ⚠️ **_A ne pas confondre !!!_**
 
@@ -106,15 +108,11 @@ On va utiliser **les trois** car c'est nécessaires pour bien comprendre comment
 
 ---
 
-<!-- class: impact -->
+## Git, fonctionnement de base
 
-# Git, fonctionnement de base
+**Git est très simple d'utilisation pour les cas les plus simples, mais il a parfois un comportement inattendu car il utilise certains concepts parfois contre-intuitifs.\_**
 
-<!-- --- -->
-
-**_Warning: git est à la fois simple et compliqué._**
-
-## Mémoriser les commandes prend du temps :
+## Mémoriser les commandes prend du temps
 
 ### Utilisez votre _memento_ !
 

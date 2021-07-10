@@ -4,9 +4,7 @@ class: animation-fade
 layout: true
 ---
 
-<!-- class: impact -->
-
-# Git - troisième partie
+# Git - quatrième partie
 
 <!-- FIXME: parler des branches et de ses commandes (partie 2?) mais surtout  -->
 <!-- FIXME: parler de rebase et de merge  -->
@@ -53,9 +51,14 @@ La forge est la source et autour viennent se greffer :
 
 - **_`git fetch`_** : récupérer la dernière version du dépôt distant (sans rien changer à son dépôt local)
 - **_`git pull`_** : récupérer la dernière version de la branche actuelle depuis le dépôt distant (bouge le `HEAD`)
+- **_`git push`_** : envoyer la dernière version locale de la branche actuelle jusqu'au dépôt distant (bouge le `HEAD` distant, en d'autres termes modifie `origin/HEAD`)
 
-<!-- FIXME: parler de git push -->
 <!-- FIXME: illustrations d'un flow et mention de différents flows -->
 
-- Cycles de développement : l'exemple de Gitlab flow
-  - notre version simplifiée master + feature branch
+## Cycles de développement :
+
+### l'exemple de Gitlab flow
+
+- notre version simplifiée master + feature branch
+
+ <!-- Dans "Remote" Push & Pull -- dépôts gits distants ! (ou `remote1`) -->

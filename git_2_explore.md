@@ -41,9 +41,7 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 
 - ## La **branche principale** s'appelle **`master`** dans git (par convention), parfois `main`.
 
-<!-- FIXME: will we tho? -->
-
-- ## Ça commence à devenir compliqué ! On va seulement travailler avec **deux branches** dans les prochains jours 😌
+- ## Ça commence à devenir compliqué ! Mais on va souvent travailler avec seulement **deux branches** 😌
 
 - **master** + **une branche** pour votre travail en cours.
 

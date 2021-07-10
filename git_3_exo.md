@@ -2,7 +2,9 @@
 title: "Git - Partie3"
 ---
 
-# Partie3 : Développer de façon collaborative avec la forge logicielle Gitlab
+<!-- Le faire sur Github ET gitlab ? -->
+
+# Partie 4 : Développer de façon collaborative avec la forge logicielle Gitlab
 
 Dans ce TP vous allez travailler par binôme sur le tutoriel Flask de Miguel Grindberg : https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
 

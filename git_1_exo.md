@@ -87,3 +87,5 @@ Pour corriger l'historique du dépôt nous aimerions revenir en arrière.
 - Constatez dans Git Graph que seul reste le premier commit qui est toujours là.
 - Ajouter et _committez_ tous les fichiers non suivis du dépôt.
 - Vérifier que **`__pycache__`** n'apparaît pas dans l'historique.
+
+ <!-- https://learngitbranching.js.org/?locale=fr_FR 1:  Séquence d'introduction et  Montée en puissance   -->

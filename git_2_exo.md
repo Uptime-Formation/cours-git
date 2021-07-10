@@ -75,3 +75,5 @@ Nous allons maintenant créer une branche en repartant du début du projet pour 
 <!-- FIXME: Déjà fait, trouver autre chose non? -->
 
 - Utilisez `git reset HEAD~1` pour annuler le dernier commit puis refaites-le en utilisant l'interface graphique de VSCode.
+
+<!-- https://learngitbranching.js.org/?locale=fr_FR Déplacer le travail + Un assortiment + Sujets avancés -->
