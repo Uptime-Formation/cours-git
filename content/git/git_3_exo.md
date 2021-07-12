@@ -21,9 +21,9 @@ weight: 320
 
 Les fusions de branche peuvent s'effectuer en local sur la machine ou sur la forge logicielle.
 
-<!-- FIXME: donner un exo de ça et dire de faire github et gitlab et local -->
-
 Prendre le TP microblog et localiser la branche qui ajoute une page "A propos". Faire un `merge` de cette branche avec `master`...
+
+<!-- FIXME: conflit avec TP4 qui fait créer un compte Framagit -->
 
 - ... en local
 - ... via Gitlab avec une Merge Request
@@ -31,7 +31,7 @@ Prendre le TP microblog et localiser la branche qui ajoute une page "A propos". 
 
 ## Rebase
 
-<!-- FIXME:  -->
+<!-- FIXME: précisions + tester -->
 
 Prendre le TP microblog et localiser la branche qui ajoute une page "A propos".
 

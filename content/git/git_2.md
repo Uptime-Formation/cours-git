@@ -5,8 +5,6 @@ layout: true
 weight: 200
 ---
 
-<!-- FIXME: parler des branches et de ses commandes (partie 3?) mais surtout  -->
-
 <!-- class: impact -->
 
 Il s'agit de **télécharger** le dépôt d'un **logiciel** depuis Internet en créant un dossier contenant le code ainsi que son **historique Git**:

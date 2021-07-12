@@ -13,16 +13,12 @@ Durant ces exercices nous allons utiliser Git en ligne de commande (sans interfa
 
 ### Initialiser le dépôt
 
-<!-- FIXME: URL microblog ou prendre un dossier qu'ils ont déjà -->
-
 - Vous pouvez reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python.
-  <!-- - la solution finale de l'app microblog. -->
-  <!-- - Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3) -->
 
 - En ligne de commande créez le dossier de code de votre `tp1_git`.
 
 - Chargez ce dossier avec VSCode.
-  <!-- - FIXME: -->
+
 - Créez ou copiez un nouveau fichier Python dans ce dossier. Je vais utiliser le code ci-joint, à copier à l'intérieur du fichier `multiplication.py` si nécessaire.
 
 {{% expand "Cliquer pour afficher `multiplication.py` :" %}}
@@ -114,8 +110,7 @@ Pour le moment Git ne versionne aucun fichier du dépôt comme le confirme la co
 - Utilisez `git add <nom_fichier>` sur le fichier. Puis faites à nouveau `git status`. Le fichier est passé à l'état suivi (_tracked_).
 <!-- FIXME: autre fichier -->
 - Créez un nouveau fichier et écrivez quelque chose à l'intérieur (ou copiez un fichier situé en dehors de ce dossier vers ce dossier).
-<!-- - Lancez votre script `afficher_tables.py` pour vérifier -->
-- Lancez votre script Python pour vérifier
+- Lancez le script `multiplication.py` ou votre script Python pour vérifier
 - Faites `git status` à nouveau. Que s'est-il passé ?
 
 ### Faire votre premier commit
@@ -136,11 +131,8 @@ git config --global user.email "<votre email>"
 - Utiliser `git add` avec l'option `-A` pour ajouter tous les fichiers actuels de votre projet.
 - Qu'affiche `git status` ?
 - Lancez à nouveau `git commit` avec un message adéquat.
-  <!-- FIXME: ah y a pycache parce qu'on a lancé le code ? -->
 
-  - A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
-
-  <!-- FIXME: ah y a pycache parce qu'on a lancé le code ? -->
+- A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
 
 ### Supprimer un fichier
 

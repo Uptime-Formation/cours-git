@@ -15,9 +15,6 @@ Il s'agit d'un dépôt exemple d'une application de microblogging (comme Twitter
 
 ## Explorer le dépôt
 
-<!-- Remplacer par learninggit.js? -->
-<!-- FIXME: test it et prendre autre app sinon -->
-
 - Lancez l'application avec les commandes `flask db init` et `flask run`.
 
 - Utilisez l'application en visitant l'adresse `http://localhost:5000/`, puis créez-vous un compte et postez un message.
@@ -54,9 +51,7 @@ Il s'agit d'un dépôt exemple d'une application de microblogging (comme Twitter
 
 ## Créer une branche pour étendre l'application
 
-<!-- FIXME: are we? une apge A propso ? -->
-
-Nous allons maintenant créer une branche en repartant du début du projet pour étendre l'application avec une page supplémentaire.
+Nous allons maintenant créer une branche en repartant du début du projet pour étendre l'application avec une page supplémentaire "A propos".
 
 - Installez dans VSCode l'extension `GitLens`.
 

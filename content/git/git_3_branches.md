@@ -3,6 +3,8 @@ title: Git 3 - Les branches
 weight: 310
 ---
 
+<!-- FIXME: dire comment on delete une branche locale/distante -->
+
 ## Collaborer à l'aide des branches
 
 Nous avons pour l'instant utilisé Git de manière linéaire : nos commits représentent une ligne qui va du commit le plus ancien au commit le plus récent.
@@ -26,11 +28,7 @@ Si la branche existe déjà, il suffit d'utiliser `git checkout` suivi du nom de
 
 Les tags sont supposés immutables. Ils servent souvent pour garder la trace du commit qui définit une version précise d'un logiciel.
 
-<!-- FIXME: illustrations d'un flow et mention de différents flows -->
-
 ## Cycles de développement
-
- <!-- FIXME: soit là soit dans partie 4 travail collab  -->
 
 Il existe plusieurs méthodes d'organisation dans Git par rapport à l'utilité des branches
 
@@ -45,17 +43,6 @@ _**git-flow**, le workflow le plus ancien, un peu trop complexe_
 - c'est le _Git flow_ le plus simple, on a :
 - une branche `master`
 - des `feature branch` pour chaque fonctionnalité en développement
-<!--
-
----
-
-title: Git 5 - Rebase et Merge
-class: animation-fade
-weight: 510
---- -->
-
-<!-- FIXME: parler des branches et de ses commandes (partie 2?) mais surtout  -->
-<!-- FIXME: parler de rebase et de merge  -->
 
 ## Merge et rebase
 

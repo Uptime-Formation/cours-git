@@ -14,13 +14,17 @@ Dans ce TP vous allez travailler par binôme sur le tutoriel Flask de Miguel Gri
 Framagit est une forge libre basée sur `Gitlab` (et qui respecte votre vie privée).
 
 - Rendez-vous sur <https://framagit.org> pour créer un compte.
-<!-- - FIXME: webcalculator? -->
-- Créez ensuite un nouveau projet `webcalculator` pour héberger le projet de la partie 2.
+<!-- - FIXME: quel projet then? -->
+- Créez ensuite un nouveau projet `scripts_python` ou avec n'importe quel autre nom pour héberger le projet de votre choix.
 - Rendez-vous dans le dossier du projet en terminal et suivez les instructions gitlab pour pousser votre dépôt existant
 
 ### Reprise du tutoriel Flask
 
+<!-- FIXME: rework, on fait microblog ou non ? si oui à partir de quand ? -->
+
 Le tutoriel a des chapitres. Le but du TP consistera a travailler à deux sur un chapitre avec un.e qui code et l'autre qui relit le code, suit le tutoriel et conseille le/la codeur/codeuse. Ce principe est très proche d'une méthodologie de développement agile nommée XP (extreme programming):
+
+<!-- FIXME: rework -->
 
 - A chaque chapitre le code sera :
   - Ajouté dans une nouvelle branche.
@@ -32,7 +36,7 @@ Le tutoriel a des chapitres. Le but du TP consistera a travailler à deux sur un
 
 Les fusions de branche peuvent s'effectuer en local sur la machine ou sur la forge logicielle.
 
-<!-- FIXME: donner un exo de ça et dire de faire les 2 -->
+<!-- FIXME: euh je l'ai pas marqué quelque part ça ? tp3 ? fusionner -->
 <!-- - Les deux premiers chapitres seront à merger en local et les deux suivants sur framagit. -->
 
 <!-- FIXME: ajout autre remote, changement URL d'origine et ajout de celle de grinberg -->
