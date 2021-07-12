@@ -52,14 +52,4 @@ La forge est la source et autour viennent se greffer :
 - **_`git pull`_** : récupérer la dernière version de la branche actuelle depuis le dépôt distant (bouge le `HEAD`)
 - **_`git push`_** : envoyer la dernière version locale de la branche actuelle jusqu'au dépôt distant (bouge le `HEAD` distant, en d'autres termes modifie `origin/HEAD`)
 
-<!-- FIXME: illustrations d'un flow et mention de différents flows -->
-
-## Cycles de développement :
-
-### l'exemple de Github flow
-
-<!-- Github flow -->
-
-- notre version simplifiée master + feature branch
-
- <!-- Dans "Remote" Push & Pull -- dépôts gits distants ! (ou `remote1`) -->
+ <!-- FIXME: Dans "Remote" Push & Pull -- dépôts gits distants ! (ou `remote1`) -->
