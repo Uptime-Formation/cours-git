@@ -28,9 +28,47 @@ Les tags sont supposés immutables. Ils servent souvent pour garder la trace du 
 
 <!-- FIXME: illustrations d'un flow et mention de différents flows -->
 
-<!-- ## Cycles de développement -->
+## Cycles de développement
+
  <!-- FIXME: soit là soit dans partie 4 travail collab  -->
 
-<!-- ### l'exemple de Gitlab flow
+Il existe plusieurs méthodes d'organisation dans Git par rapport à l'utilité des branches
 
-- notre version simplifiée master + feature branch -->
+- parfois il y a une branche `stable` et une branche `development` qui représente une version plus _beta_ de l'application
+- il y a souvent des branches pour chaque fonctionnalité ajoutée, appelées `feature branch`
+
+<!-- FIXME: illustration -->
+
+### l'exemple de Github flow
+
+- c'est le _Git flow_ le plus simple, on a :
+- une branche `master`
+- des `feature branch` pour chaque fonctionnalité en développement
+<!--
+
+---
+
+title: Git 5 - Rebase et Merge
+class: animation-fade
+weight: 510
+--- -->
+
+<!-- FIXME: parler des branches et de ses commandes (partie 2?) mais surtout  -->
+<!-- FIXME: parler de rebase et de merge  -->
+
+## Merge et rebase
+
+### Git pour collaborer...
+
+L'historique Git, c'est un peu **raconter une histoire** de comment on est arrivé à ce bout de code, ajouté pour telle fonctionnalité à telle version du logiciel.
+
+Parfois il faut donc utiliser quelques commandes plus avancées de Git pour expliquer aux gens lisant l'historique Git quand on a voulu raconter que :
+
+- deux versions du code ont été fusionnées (_merge_, fusion en anglais)
+- ou bien des modifications doivent être ajoutées (_"rebasées"_) sur la dernière version du code (_rebase_)
+
+Ce raisonnement est issu de l'article suivant, extrêmement riche, et qui est une référence à laquelle on peut revenir en cas de doute :
+[_Bien utiliser Git merge et rebase_, par Delicious Insights](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
+
+<!-- FIXME: le rebase interactif -->
+<!-- FIXME: le cherrypick -->

@@ -131,6 +131,12 @@ Vous êtes dans un dossier avec du code :
 
 # Le **commit**
 
+Un commit est composé :
+
+- d'un message de commit
+- d'un instantané du code
+- de référence par rapport à un (ou des) **commit parent** (ce qui nous permet de faire des branches de l'_arbre_ de Git)
+
 ## **to commit** signifier **s'engager**
 
 - **Idéalement**, lorsque vous faites un commit, le code devrait être dans un état à peu près **cohérent** et le commit devrait rassembler des **modifications qui ont du sens** pour atteindre un objectif (par exemple : résoudre un bug, rajouter une fonctionnalité, modifier de la documentation...)

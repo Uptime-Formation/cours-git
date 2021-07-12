@@ -12,7 +12,12 @@ weight: 200
 
 Il s'agit de **télécharger** le dépôt d'un **logiciel** depuis Internet en créant un dossier contenant le code ainsi que son **historique Git**:
 
-- `git clone <url dépot>` puis `cd <dépôt>` pour aller dans le dossier du dépôt (par exemple `git clone https://github.com/YunoHost/gertrude/` et `cd gertrude`, ou bien `https://github.com/spring-projects/spring-petclinic.git`)
+- `git clone <url dépot>` puis `cd <dépôt>` pour aller dans le dossier du dépôt.
+
+  - par exemple `git clone https://github.com/YunoHost/gertrude/` et `cd gertrude`,
+  - ou bien `https://github.com/spring-projects/spring-petclinic` et `cd spring-petclinic`
+  - ou encore `https://github.com/miguelgrinberg/microblog` et `cd microblog`
+
 - `git log` pour voir la liste des commits
 - `git checkout <commit num>` pour vous **déplacer** au niveau d'un commit : le code dans le dépôt **change**.
 - `git diff <commit_1> <commit_2>` pour voir ce qui a changé entre deux commits.
@@ -50,10 +55,10 @@ Un dépôt Git téléchargé depuis Internet peut être privé : il faut alors s
 
 --
 
-- Dans git, **HEAD** désigne un curseur qui indique dans quel état est le dépôt actuellement.
-  - par défaut **HEAD** pointe sur le dernier commit de la branche (`master` s'il n'y en a qu'une).
-  - remonter le temps cela signifie déplacer **HEAD**.
-  - `git reflog` affiche l'historique des déplacements de **HEAD**.
+- Dans git, **`HEAD`** désigne un curseur qui indique dans quel état est le dépôt actuellement.
+  - par défaut **`HEAD`** pointe sur le dernier commit de la branche (`master` s'il n'y en a qu'une).
+  - remonter le temps cela signifie déplacer **`HEAD`**.
+  - **`git reflog` affiche l'historique des déplacements de `HEAD`**.
 
 ---
 
@@ -80,7 +85,7 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 
 <!-- class: impact -->
 
-# Explorer un dépôt
+<!-- # Explorer un dépôt -->
 
 <!-- # Démonstration -->
 <!-- https://github.com/spring-projects/spring-petclinic.git -->
@@ -94,5 +99,3 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 # Deuxième TP
 
 ---
-
-<!-- FIXME: parler des tags -->
