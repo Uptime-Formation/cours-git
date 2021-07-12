@@ -14,7 +14,7 @@ draft: false
 
 ---
 
-# Comment gérer du code logiciel ?
+### Comment gérer du code logiciel ?
 
 ## Plusieurs difficultés :
 
@@ -29,7 +29,7 @@ draft: false
 
 ---
 
-# Comment gérer du code logiciel ?
+## Comment gérer du code logiciel ?
 
 3. **Version** du logiciel :
    - Le développement est un travail **itératif** = contruction petit à petit => plein de versions !
@@ -38,17 +38,15 @@ draft: false
 
 ---
 
-# Solution : un gestionnaire de versions
+## Solution : un gestionnaire de versions
 
-## 1. Suit **chaque modification** faite à des **fichiers**, en général des **fichiers texte** (souvent de code mais peut être autre chose : de la documentation, par exemple en format Markdown comme ce cours, plus rarement d'autres fichiers, comme des documents Word).
+1. Suit **chaque modification** faite à des **fichiers**, en général des **fichiers texte** (souvent de code mais peut être autre chose : de la documentation, par exemple en format Markdown comme ce cours, plus rarement d'autres fichiers, comme des documents Word).
 
 ![](../../images/git_diff.png)
 
 ---
 
-# Solution : un gestionnaire de versions
-
-## 2. Permet de **stocker plusieurs versions** des **mêmes fichiers** et passer d'une version à l'autre.
+2. Permet de **stocker plusieurs versions** des **mêmes fichiers** et passer d'une version à l'autre.
 
 Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **beaucoup plus avancé**.
 
@@ -56,15 +54,13 @@ Un peu comme la fonctionnalité "Historique" de Google Docs ou de Framapad en **
 
 ---
 
-# Solution : un gestionnaire de versions
-
 ## 3. Permet de suivre **qui** a fait quelle modification, **partager les modifications** avec les autres, **régler les conflits d'édition**
 
 ![](../../images/gitkraken.png)
 
 ---
 
-# Git !
+## Git !
 
 **git** est un petit programme en ligne de commande. Qui fait tout ce dont on vient de parler :
 
@@ -77,7 +73,7 @@ Pour la petite histoire, Git a été inventé en 2005 par Linus Torvalds, le cr�
 
 ---
 
-# Écosystème Git :
+## Écosystème Git :
 
 ⚠️ **_A ne pas confondre !!!_**
 
@@ -94,7 +90,7 @@ On va utiliser **les trois** car c'est nécessaires pour bien comprendre comment
 
 ---
 
-# On va utiliser
+On va utiliser :
 
 - **git** en ligne de commande souvent : il faut **absolument connaître** les fonctions de base pour travailler sur un projet de code aujourd'hui
 - **VSCode** : un éditeur de texte qui a des fonctions pratiques pour visualiser les modifications git et l'historique d'un projet, afficher les conflits d'édition.

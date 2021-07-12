@@ -37,9 +37,10 @@ Il existe plusieurs méthodes d'organisation dans Git par rapport à l'utilité 
 - parfois il y a une branche `stable` et une branche `development` qui représente une version plus _beta_ de l'application
 - il y a souvent des branches pour chaque fonctionnalité ajoutée, appelées `feature branch`
 
-<!-- FIXME: illustration -->
+![](../../images/git_branches_2.png)
+_**git-flow**, le workflow le plus ancien, un peu trop complexe_
 
-### l'exemple de Github flow
+### L'exemple du GitHub flow
 
 - c'est le _Git flow_ le plus simple, on a :
 - une branche `master`
