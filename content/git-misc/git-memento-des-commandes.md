@@ -5,20 +5,20 @@ draft: false
 
 ### Creation d'un dépôt et ajout d'un commit
 
-| Commande                               | Effet                                                                                                          |
-| -------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| `git init <directory>`                 | Créer un dépôt git vide dans le répertoire spécifié ou initialise le répertoire courant en tant que dépôt git. |
-| `git config --global user.name <name>` | Définir le nom de l'auteur à utiliser pour les nouveaux commits.                                               |
-| `git status`                           | Afficher l'état du dépôt et la liste des fichiers inclus ou non pour le prochain commit.                       |
-| `git add <dossier>`                    | Inclure (stage) tous les changement dans `<dossier>` pour le commit                                            |
-| `git add <fichier>`                    | Inclure les changement du `<fichier>` pour le commit                                                           |
-| `git add -A`                           | Inclure tous les changements pour le commit                                                                    |
-| `git rm <fichier>`                     | Enlever (unstage) `<fichier>` du prochain commit.                                                              |
-| `git diff`                             | Afficher les lignes modifiées depuis le dernier commit.                                                        |
-| `git commit -m "<message>"`            | Valider les modifications sélectionnées (staged) pour créer un nouveau commit avec le message `<message>`.     |
-| `git log`                              | Afficher l'historique des commits                                                                              |
-| `git remote add <name> <url>`          | Ajouter une connexion de votre dépôt courant à un dépôt sur un serveur.                                        |
-| `git push`                             | Pousser les nouveau commits sur le serveur (principal).                                                        |
+| Commande                                       | Effet                                                                                                          |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `git init <directory>`                         | Créer un dépôt git vide dans le répertoire spécifié ou initialise le répertoire courant en tant que dépôt git. |
+| `git config --global user.name <name>`         | Définir le nom de l'auteur/autrice à utiliser pour les nouveaux commits.                                       |
+| `git status`                                   | Afficher l'état du dépôt et la liste des fichiers inclus ou non pour le prochain commit.                       |
+| `git add <dossier>`                            | Inclure (_stage_) tous les changement dans `<dossier>` pour le commit                                          |
+| `git add <fichier>`                            | Inclure les changement du `<fichier>` pour le commit                                                           |
+| `git add -A`                                   | Inclure tous les changements pour le commit                                                                    |
+| `git rm <fichier>`                             | Enlever (_unstage_) `<fichier>` du prochain commit.                                                            |
+| `git diff`                                     | Afficher les lignes modifiées depuis le dernier commit.                                                        |
+| `git commit -m "<message>"`                    | Valider les modifications sélectionnées (_staged_) pour créer un nouveau commit avec le message `<message>`.   |
+| `git log` ou `git log --oneline --all --graph` | Afficher l'historique des commits                                                                              |
+| `git remote add <name> <url>`                  | Ajouter une connexion de votre dépôt courant à un dépôt sur un serveur.                                        |
+| `git push`                                     | Pousser les nouveau commits sur le serveur (principal).                                                        |
 
 ### Téléchargement et exploration d'un dépôt simple
 
@@ -46,20 +46,20 @@ draft: false
 
 ### Corriger ses erreurs
 
-| Commande               | Effet                                                                                                                                  |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| ` git commit --amend`  | Ajouter des modifications au commit précédent pour le corriger ou simplement changer le message du commit précédent.                   |
-| ` git reset`           | Annuler le dernier commit en gardant les modifications.                                                                                |
-| `git reset --hard`     | Annuler le dernier commit et supprimer les modifications                                                                               |
-| `git rebase <branche>` | (plus complexe) Reconstruire l'historique de la branche courant à partir d'une autre branche en résolvant les conflits à chaque commit |
+| Commande                    | Effet                                                                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ` git commit --amend`       | Ajouter des modifications au commit précédent pour le corriger ou simplement changer le message du commit précédent.                   |
+| ` git reset <commit>`       | Réinitialiser le `HEAD` au commit indiqué en gardant les modifications.                                                                |
+| `git reset --hard <commit>` | Réinitialiser le `HEAD` au commit indiqué en **perdant** les modifications.                                                            |
+| `git rebase <branche>`      | (plus complexe) Reconstruire l'historique de la branche courant à partir d'une autre branche en résolvant les conflits à chaque commit |
 
 ### Lexique git
 
-| Concept     | Explication                                                          |
-| ----------- | -------------------------------------------------------------------- |
-| Un commit   | Une version validée du code avec un auteur, un message et un numéro. |
-| Une branche | Une suite de commits avec un nom contenant une version du logiciel.  |
-| HEAD        | Le commit actuellement sélectionné dans le dépôt.                    |
-| remote      | Un dépôt git sur un serveur par exemple la forge framagit.           |
-| origin      | Le nom du remote par défaut.                                         |
-| master      | La branche par défaut, généralement la branche principale.           |
+| Concept     | Explication                                                                                    |
+| ----------- | ---------------------------------------------------------------------------------------------- |
+| Un commit   | Une version validée du code avec un auteur / une autrice, un message et un identifiant unique. |
+| Une branche | Une suite de commits avec un nom contenant une version du logiciel.                            |
+| HEAD        | Le commit actuellement sélectionné dans le dépôt.                                              |
+| remote      | Un dépôt git sur un serveur par exemple la forge framagit.                                     |
+| origin      | Le nom du remote par défaut.                                                                   |
+| master      | La branche par défaut, généralement la branche principale.                                     |

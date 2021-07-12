@@ -6,7 +6,6 @@ weight: 200
 ---
 
 <!-- FIXME: parler des branches et de ses commandes (partie 3?) mais surtout  -->
-<!-- FIXME: parler de reset -->
 
 <!-- class: impact -->
 
@@ -83,8 +82,14 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 
 ---
 
-<!-- class: impact -->
+## Utiliser les commandes `git reset` et `git reset --hard`
 
+**Attention: `git reset --hard` peut vous faire perdre votre travail s'il n'est pas dans un commit !!!**
+
+<!-- FIXME: parler de reset -->
+
+- `git reset` : réinitialiser le `HEAD` au commit indiqué en gardant les modifications.
+- `git reset --hard` : réinitialiser le `HEAD` au commit indiqué en **perdant les modifications**
 <!-- # Explorer un dépôt -->
 
 <!-- # Démonstration -->

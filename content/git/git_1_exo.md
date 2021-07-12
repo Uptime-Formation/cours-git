@@ -15,7 +15,7 @@ Durant ces exercices nous allons utiliser Git en ligne de commande (sans interfa
 
 <!-- FIXME: URL microblog ou prendre un dossier qu'ils ont déjà -->
 
-- Nous allons reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python.
+- Vous pouvez reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python.
   <!-- - la solution finale de l'app microblog. -->
   <!-- - Reprenez le corrigé de l'[exercice de programmation orienté objet (9.2) ](https://eliegavoty.fr/devops/python-poe/exercices-corriges-partie-3) -->
 
@@ -23,9 +23,11 @@ Durant ces exercices nous allons utiliser Git en ligne de commande (sans interfa
 
 - Chargez ce dossier avec VSCode.
   <!-- - FIXME: -->
-- Créez un nouveau fichier dans ce dossier
+- Créez ou copiez un nouveau fichier Python dans ce dossier. Je vais utiliser le code ci-joint, à copier à l'intérieur du fichier `multiplication.py` si nécessaire.
 
-{{% expand "`multiplication.py` :" %}}
+{{% expand "Cliquer pour afficher `multiplication.py` :" %}}
+
+```python
 class TableDeMultiplication:
 
     def __init__(self, base=1, longueur=10):
@@ -89,17 +91,18 @@ class TableDeMultiplication:
             self._longueur + table2._longueur
         )
 
-if **name** == "**main**":
-table = TableDeMultiplication(2)
-print(len(table))
-print(table.longueur)
-print(table)
-print(table[3])
-print(table[3:10])
-print(table + TableDeMultiplication(3,3))
+if __name__ == "__main__":
+    table = TableDeMultiplication(2)
+    print(len(table))
+    print(table.longueur)
+    print(table)
+    print(table[3])
+    print(table[3:10])
+    print(table + TableDeMultiplication(3,3))
+```
+
 {{% /expand %}}
 
-- Copier à l'intérieur de ce fichier le code nécessaire.
 - Lancez `git status`. Quel est le problème ?
 - Initialisez le dépot de code avec la commande `git init`.
 - Utilisez ensuite `git status` pour voir l'état de votre dépôt.

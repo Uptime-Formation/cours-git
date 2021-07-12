@@ -134,7 +134,8 @@ Vous êtes dans un dossier avec du code :
 Un commit est composé :
 
 - d'un message de commit
-- d'un instantané du code
+- d'un instantané du code auquel on se réfère via un identifiant unique (une empreinte ou un _hash_)
+- d'un auteur / une autrice
 - de référence par rapport à un (ou des) **commit parent** (ce qui nous permet de faire des branches de l'_arbre_ de Git)
 
 ## **to commit** signifier **s'engager**
