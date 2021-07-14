@@ -44,19 +44,27 @@ _**git-flow**, le workflow le plus ancien, un peu trop complexe_
 - une branche `master`
 - des `feature branch` pour chaque fonctionnalité en développement
 
-## Merge et rebase
+## Git pour collaborer...
 
-### Git pour collaborer...
-
-L'historique Git, c'est un peu **raconter une histoire** de comment on est arrivé à ce bout de code, ajouté pour telle fonctionnalité à telle version du logiciel.
+### Merge et rebase
 
 Parfois il faut donc utiliser quelques commandes plus avancées de Git pour expliquer aux gens lisant l'historique Git quand on a voulu raconter que :
 
 - deux versions du code ont été fusionnées (_merge_, fusion en anglais)
 - ou bien des modifications doivent être ajoutées (_"rebasées"_) sur la dernière version du code (_rebase_)
 
-Ce raisonnement est issu de l'article suivant, extrêmement riche, et qui est une référence à laquelle on peut revenir en cas de doute :
-[_Bien utiliser Git merge et rebase_, par Delicious Insights](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
+## Réécrire l'historique
 
-<!-- FIXME: le rebase interactif -->
-<!-- FIXME: le cherrypick -->
+L'historique Git, c'est un peu **raconter une histoire** de comment on est arrivé à ce bout de code, ajouté pour telle fonctionnalité à telle version du logiciel.
+
+Pour arriver à cela il y a 2 outils importants :
+
+- `git cherry-pick <commit>` : prend un commit et l'ajoute à la branche actuelle
+- le **rebase interactif**
+
+### Le rebase interactif
+
+Le rebase interactif est un outil un peu compliqué à manipuler, qui nous permet de **réécrire l'historique d'une branche** en choisissant quels commits on va fusionner ensemble, effacer, ou réordonner. C'est la commande `git rebase -i`
+
+L'article suivant, extrêmement riche, est une référence à laquelle on peut revenir en cas de doute sur le choix de merge ou de rebase :
+[_Bien utiliser Git merge et rebase_, par Delicious Insights](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
