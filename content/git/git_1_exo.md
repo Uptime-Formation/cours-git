@@ -13,13 +13,13 @@ Durant ces exercices nous allons utiliser Git en ligne de commande (sans interfa
 
 ### Initialiser le dépôt
 
-- Vous pouvez reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python.
+<!-- - Vous pouvez reprendre du code que vous avez pu utiliser dans une session précédente, par exemple tiré de votre dossier d'exercices Python. -->
 
-- En ligne de commande créez le dossier de code de votre `tp1_git`.
+- En ligne de commande créez le dossier de code `tp1_git`.
 
 - Chargez ce dossier avec VSCode.
 
-- Créez ou copiez un nouveau fichier Python dans ce dossier. Je vais utiliser le code ci-joint, à copier à l'intérieur du fichier `multiplication.py` si nécessaire.
+- Créez un nouveau fichier Python dans ce dossier appelé `multiplication.py`. Copiez-y le code suivant :
 
 {{% expand "Cliquer pour afficher `multiplication.py` :" %}}
 
@@ -110,8 +110,8 @@ Pour le moment Git ne versionne aucun fichier du dépôt comme le confirme la co
 - Utilisez `git add <nom_fichier>` sur le fichier. Puis faites à nouveau `git status`. Le fichier est passé à l'état suivi (_tracked_).
 <!-- FIXME: autre fichier -->
 - Créez un nouveau fichier et écrivez quelque chose à l'intérieur (ou copiez un fichier situé en dehors de ce dossier vers ce dossier).
-- Lancez le script `multiplication.py` ou votre script Python pour vérifier
 - Faites `git status` à nouveau. Que s'est-il passé ?
+- Lancez le script `multiplication.py` pour vérifier
 
 ### Faire votre premier commit
 
@@ -149,8 +149,7 @@ Maintenant que nous avons supprimé ce dossier nous voulons éviter de l'ajouter
 - Ajoutez un fichier `.gitignore` et à la première ligne ajoutez `__pycache__`
 - Ajoutez ce fichier au suivi.
 - Ajoutez un commit avec le message "`ignore __pycache__`"
-<!-- - FIXME: il faut donc un programme à lancer -->
-- Lancez le programme `afficher_tables` à nouveau.
+- Lancez le programme `multiplication.py` à nouveau.
 - Lancez `status`. Que constate-t-on ?
 
 ### Annuler un ou plusieurs commit
@@ -161,14 +160,22 @@ Le problème avec la suppression de `__pycache__` de la partie précédente est 
 - Explorer la fenêtre git graph en cliquant sur `Git Graph` en bas à gauche de la fenêtre.
 - Regardez successivement le contenu des deux commits.
 
-<!-- FIXME: Wallah compliqué là tout de suite ! -->
-
-Pour corriger l'historique du dépôt nous aimerions revenir en arrière.
+- Pour corriger l'historique du dépôt nous aimerions revenir en arrière.
 
 - Utilisez `git reset` avec `HEAD~2` pour revenir deux commits en arrière (nous parlerons de `HEAD` plus tard).
-- Faites `git status`. normalement vous devrier avoir deux fichiers non suivis `.gitignore` et `afficher_tables.py`. Git vient de réinitialiser les ajouts des deux commits précédents.
+- Faites `git status`. Normalement vous devriez avoir deux fichiers non suivis `.gitignore` et `multiplication.py`. Git vient de réinitialiser les ajouts des deux commits précédents.
 - Constatez dans Git Graph que seul reste le premier commit qui est toujours là.
 - Ajouter et _committez_ tous les fichiers non suivis du dépôt.
 - Vérifier que **`__pycache__`** n'apparaît pas dans l'historique.
 
- <!-- https://learngitbranching.js.org/?locale=fr_FR 1:  Séquence d'introduction et  Montée en puissance   -->
+## Exercices supplémentaires
+
+- ["1: Séquence d'introduction et Montée en puissance" sur _Learn Git branching_](https://learngitbranching.js.org/?locale=fr_FR)
+
+### gitexercises.fracz.com
+
+1. <https://gitexercises.fracz.com/exercise/master>
+2. <https://gitexercises.fracz.com/exercise/commit-one-file>
+3. <https://gitexercises.fracz.com/exercise/commit-one-file-staged>
+4. <https://gitexercises.fracz.com/exercise/ignore-them>
+5. <https://gitexercises.fracz.com/exercise/remove-ignored>

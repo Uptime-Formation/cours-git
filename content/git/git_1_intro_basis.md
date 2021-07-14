@@ -165,6 +165,6 @@ Un commit est composé :
   <!-- - _Staged_ = inclus (dans le prochain commit) -->
   <!-- - `git rm fichier` pour désindexer. -->
 
----
+## <!-- FIXME: gitignore -->
 
 # Premier TP

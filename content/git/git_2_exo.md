@@ -64,7 +64,7 @@ Nous allons maintenant créer une branche en repartant du début du projet pour 
 <!-- FIXME: -->
 <!-- - Pour créer une branche plus "doucement" nous allons a nouveau déplacer HEAD au niveau du commit d'introduction du `Jenkinsfile`. -->
 
-- Créez une nouvelle branche avec `git checkout -b <nom branche>` appelez la **`about-page`**.
+- Créez une nouvelle branche avec `git checkout -b <nom branche>` appelez-la **`about-page`**.
 
 - Trouvez comment ajouter une page _A propos_ à l'application Flask (indice : il faut ajouter une route, un template et un lien dans le menu).
 
@@ -113,4 +113,11 @@ def about_page():
 
 - Utilisez `git reset HEAD~1` pour annuler le dernier commit puis refaites-le en utilisant l'interface graphique de VSCode.
 
-<!-- FIXME: https://learngitbranching.js.org/?locale=fr_FR Déplacer le travail + Un assortiment + Sujets avancés -->
+## Exercices supplémentaires
+
+- ["Déplacer le travail + Un assortiment + Sujets avancés" sur _Learn Git branching_](https://learngitbranching.js.org/?locale=fr_FR)
+
+### gitexercises.fracz.com
+
+https://gitexercises.fracz.com/exercise/fix-typo
+https://gitexercises.fracz.com/exercise/commit-lost
