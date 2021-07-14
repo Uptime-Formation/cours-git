@@ -84,21 +84,9 @@ D'autres interfaces pratiques et indépendantes de l'éditeur : _tig_, _meld_, .
 
 **Attention: `git reset --hard` peut vous faire perdre votre travail s'il n'est pas dans un commit !!!**
 
-<!-- FIXME: parler de reset -->
-
 - `git reset` : réinitialiser le `HEAD` au commit indiqué en gardant les modifications.
 - `git reset --hard` : réinitialiser le `HEAD` au commit indiqué en **perdant les modifications**
-<!-- # Explorer un dépôt -->
-
-<!-- # Démonstration -->
-<!-- https://github.com/spring-projects/spring-petclinic.git -->
-<!-- https://github.com/miguelgrinberg/microblog -->
-<!-- FIXME: Utiliser par exemple le dépôt des exercices Python. pour revenir au début sur du code que les étudiants connaissent. Ou la Flask app ?-->
 
 ---
-
-<!-- class: impact -->
 
 # Deuxième TP
-
----

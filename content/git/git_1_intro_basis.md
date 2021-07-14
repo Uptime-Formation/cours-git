@@ -134,13 +134,15 @@ Un commit est composé :
 - d'un auteur / une autrice
 - de référence par rapport à un (ou des) **commit parent** (ce qui nous permet de faire des branches de l'_arbre_ de Git)
 
-## **to commit** signifier **s'engager**
+- **to commit** signifier **s'engager**
 
 - **Idéalement**, lorsque vous faites un commit, le code devrait être dans un état à peu près **cohérent** et le commit devrait rassembler des **modifications qui ont du sens** pour atteindre un objectif (par exemple : résoudre un bug, rajouter une fonctionnalité, modifier de la documentation...)
 
-## Toujours mettre un **message** de commit
+- Toujours mettre un **message** de commit
 
 - Les commits sont des étapes du développement du logiciel. Lire la liste de ces étapes devrait permettre à un·e developpeur / développeuse de comprendre l'évolution du code.
+
+- un **commit** est toujours une référence à **une version précise de l'ensemble du code** par rapport à l'arbre Git, c'est n'est **pas** juste des ajouts et des suppressions par rapport au code du commit précédent
 
 ---
 
@@ -154,17 +156,15 @@ Un commit est composé :
 
 ![](../../images/git_file_statuses.jpg)
 
-- `git rm fichier` pour désindexer.
-- _Tracked_ = suivi
-- _Staged_ = inclus (dans le prochain commit)
+3 **arbres** :
+
+- _l'espace de travail_ : ce sont les fichiers qu'il y a réellement dans votre dossier
+- l'_index_ ou _staging_ : un espace où l'on prépare son futur commit
+- et enfin l'arbre des commits définitif, avec _HEAD_ qui fait référence au tout dernier commit
+  <!-- - -  _Tracked_ : suivi par Git -->
+  <!-- - _Staged_ = inclus (dans le prochain commit) -->
+  <!-- - `git rm fichier` pour désindexer. -->
 
 ---
-
-<!-- FIXME: expliquer que branch, tag ou commit c'est toujours uen ref à un endroit dans l'arbre, pas un diff de code -->
-<!-- FIXME: incorporer https://rogerdudler.github.io/git-guide/ -->
-
-<!-- class: impact -->
 
 # Premier TP
-
----

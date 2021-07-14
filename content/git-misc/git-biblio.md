@@ -9,16 +9,15 @@ draft: false
 
 ## Liens
 
-<!-- FIXME: sort them -->
-
 ### Ressources
 
-- [git - the simple guide](https://rogerdudler.github.io/git-guide/)
-- [Et merde, Git!?!](https://ohshitgit.com/fr)
+- [git - petit guide (en français)](https://rogerdudler.github.io/git-guide/index.fr.html)
+- [Et merde, Git!?! (en français)](https://ohshitgit.com/fr)
+- [Une Référence Visuelle de Git (en français)](https://marklodato.github.io/visual-git-guide/index-fr.html)
 
 ### Documentation
 
-- [Livre officiel Pro Git en français](http://git-scm.com/book/fr/v2)
+- [Livre officiel Pro Git (en français)](http://git-scm.com/book/fr/v2)
 - [Documentation officielle](http://git-scm.com/doc)
 - [W3schools Git Tutorial](https://www.w3schools.com/git/default.asp)
 
@@ -30,7 +29,7 @@ draft: false
 
 ### Points précis
 
-- [Bien utiliser Git merge et rebase](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
+- [Bien utiliser Git merge et rebase (en français)](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
 - [4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
 - [Git Submodules vs Git Subtrees](https://martowen.com/2016/05/01/git-submodules-vs-git-subtrees/)
 

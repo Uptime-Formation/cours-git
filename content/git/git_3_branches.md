@@ -3,15 +3,13 @@ title: Git 3 - Les branches
 weight: 310
 ---
 
-<!-- FIXME: dire comment on delete une branche locale/distante -->
-
 ## Collaborer à l'aide des branches
 
-Nous avons pour l'instant utilisé Git de manière linéaire : nos commits représentent une ligne qui va du commit le plus ancien au commit le plus récent.
+Nous avons pour l'instant utilisé Git sur une seule branche : nos commits représentent une ligne qui va du commit le plus ancien au commit le plus récent.
 
 Mais la force de Git est le concept d'arborescence (d'arbre) constituée de branches.
 
-Théoriquement, une branche n'est qu'un pointeur, une sorte d'étiquette vers un commit particulier, qui est mise à jour à chaque fois que l'on crée un commit en ayant _activé_ telle branche.
+Théoriquement, **une branche n'est qu'un pointeur vers un commit**, une sorte de raccourci vers un commit particulier, qui est **mise à jour à chaque fois que l'on crée un nouveau commit sur telle branche**.
 
 ### Créer une branche et basculer sur une branche
 
@@ -20,13 +18,15 @@ Créer une branche se fait avec la sous-commande `checkout` et l'option `-b` :
 Si la branche existe déjà, il suffit d'utiliser `git checkout` suivi du nom de branche :
 `git checkout <nom_de_branche>`
 
+<!-- FIXME: dire comment on delete une branche locale/distante -->
 <!-- ### Supprimer une branche distante
-
 **Attention ! C'est dangereux !** -->
 
 ### Les tags
 
-Les tags sont supposés immutables. Ils servent souvent pour garder la trace du commit qui définit une version précise d'un logiciel.
+- Les tags sont comme des raccourcis vers un commit précis.
+- En général on ne les modifie pas après les avoir créés.
+- Ils servent souvent pour faire référence au commit précis qui définit la version du code.
 
 ## Cycles de développement
 
