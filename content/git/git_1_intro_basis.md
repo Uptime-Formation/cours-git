@@ -161,6 +161,7 @@ Un commit est composé :
 ---
 
 <!-- FIXME: expliquer que branch, tag ou commit c'est toujours uen ref à un endroit dans l'arbre, pas un diff de code -->
+<!-- FIXME: incorporer https://rogerdudler.github.io/git-guide/ -->
 
 <!-- class: impact -->
 

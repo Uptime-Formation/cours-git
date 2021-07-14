@@ -9,18 +9,38 @@ draft: false
 
 ## Liens
 
-- https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
-- https://github.com/gitless-vcs/gitless
-- https://rogerdudler.github.io/git-guide/
-- https://missing.csail.mit.edu/2020/version-control/
-- https://github.com/gitless-vcs/gitless
-- https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/
-- https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-- https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
-- https://learngitbranching.js.org/?locale=fr_FR
-- https://tom.preston-werner.com/2009/05/19/the-git-parable.html
-- https://jwiegley.github.io/git-from-the-bottom-up/
-- http://git-scm.com/book/en/v2
-- http://git-scm.com/doc
-- https://eagain.net/articles/git-for-computer-scientists/
-- https://martowen.com/2016/05/01/git-submodules-vs-git-subtrees/
+<!-- FIXME: sort them -->
+
+### Ressources
+
+- [git - the simple guide](https://rogerdudler.github.io/git-guide/)
+- [Et merde, Git!?!](https://ohshitgit.com/fr)
+
+### Documentation
+
+- [Livre officiel Pro Git en français](http://git-scm.com/book/fr/v2)
+- [Documentation officielle](http://git-scm.com/doc)
+- [W3schools Git Tutorial](https://www.w3schools.com/git/default.asp)
+
+### Théorie
+
+- [The missing CS semester - Version Control (Git)](https://missing.csail.mit.edu/2020/version-control/)
+- [How to explain git in simple words?](https://xosh.org/explain-git-in-simple-words/)
+- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
+
+### Points précis
+
+- [Bien utiliser Git merge et rebase](https://delicious-insights.com/fr/articles/bien-utiliser-git-merge-et-rebase/)
+- [4 branching workflows for Git](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
+- [Git Submodules vs Git Subtrees](https://martowen.com/2016/05/01/git-submodules-vs-git-subtrees/)
+
+### Extensions VSCode
+
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+### Exercices
+
+- <https://learngitbranching.js.org/?locale=fr_FR>
+- <https://gitexercises.fracz.com/>
+- <https://www.w3schools.com/git/exercise.asp>

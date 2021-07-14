@@ -40,3 +40,8 @@ Les fusions de branche peuvent s'effectuer en local sur la machine ou sur la for
 <!-- - Les deux premiers chapitres seront à merger en local et les deux suivants sur framagit. -->
 
 <!-- FIXME: ajout autre remote, changement URL d'origine et ajout de celle de grinberg -->
+
+## Exercices sur Learning Git Branching
+
+ <!-- FIXME: leanringgit :  cherchez section    "Remote" puis Push & Pull -- dépôts gits distants ! (ou `remote1`) -->
+<!-- FIXME: https://gitexercises.fracz.com/ -->

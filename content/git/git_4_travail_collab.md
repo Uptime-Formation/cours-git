@@ -51,5 +51,4 @@ La forge est la source et autour viennent se greffer :
 - **_`git pull`_** : récupérer la dernière version de la branche actuelle depuis le dépôt distant (bouge le `HEAD`)
 - **_`git push`_** : envoyer la dernière version locale de la branche actuelle jusqu'au dépôt distant (bouge le `HEAD` distant, en d'autres termes modifie `origin/HEAD`)
 
- <!-- FIXME: leanringgit :  "Remote" Push & Pull -- dépôts gits distants ! (ou `remote1`) -->
  <!-- FIXME: ajouts commande git remote add / set + speech sur le rôle de origin ou any other one -->
