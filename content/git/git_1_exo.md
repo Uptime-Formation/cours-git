@@ -130,7 +130,7 @@ git config --global user.email "<votre email>"
 
 ### Commit de tous les fichiers
 
-- Si le dossier `__pycache__` n'a pas été créé, créez le manuellement juste pour le TP : `mkdir __pycache__`
+- Si le dossier `__pycache__` n'a pas été créé, créez manuellement juste pour le TP un fichier : `touch __pycache__`
 
 - Utiliser `git add` avec l'option `-A` pour ajouter tous les fichiers actuels de votre projet.
 - Qu'affiche `git status` ?
