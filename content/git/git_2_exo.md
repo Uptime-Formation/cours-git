@@ -15,6 +15,8 @@ Il s'agit d'un dépôt exemple d'une application de microblogging (comme Twitter
 
 ## Explorer le dépôt
 
+- Installez ce qui est nécessaire pour l'application avec la commande `pip install -r requirements.txt`
+
 - Lancez l'application avec les commandes `flask db init` et `flask run`.
 
 - Utilisez l'application en visitant l'adresse `http://localhost:5000/`, puis créez-vous un compte et postez un message.

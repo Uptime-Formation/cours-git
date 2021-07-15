@@ -161,7 +161,7 @@ Maintenant que nous avons supprimé ce dossier nous voulons éviter de l'ajouter
 Le problème avec la suppression de `__pycache__` de la partie précédente est qu'elle n'affecte que le dernier commit. Le dossier inutile `__pycache__` encombre encore l'historique de notre dépôt.
 
 - Pour le constater, installez l'extension [`Git Graph` de VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph).
-- Explorer la fenêtre git graph en cliquant sur `Git Graph` en bas à gauche de la fenêtre.
+- Explorer la fenêtre git graph en cliquant sur `Git Graph` en haut à gauche de la fenêtre des fichiers.
 - Regardez successivement le contenu des deux commits.
 
 - Pour corriger l'historique du dépôt nous aimerions revenir en arrière.
