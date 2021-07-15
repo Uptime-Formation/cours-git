@@ -17,7 +17,8 @@ Durant ces exercices nous allons utiliser Git en ligne de commande (sans interfa
 
 - En ligne de commande créez le dossier de code `tp1_git`.
 
-- Chargez ce dossier avec VSCode.
+- Chargez ce dossier avec VSCode. Si VSCode n'est pas installé : `snap install --classic code`
+- Pour lancer VSCode : `code` ou `code mondossier/`
 
 - Créez un nouveau fichier Python dans ce dossier appelé `multiplication.py`. Copiez-y le code suivant :
 
@@ -133,6 +134,8 @@ git config --global user.email "<votre email>"
 - Lancez à nouveau `git commit` avec un message adéquat.
 
 - A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
+
+- Si le dossier `__pycache__` n'a pas été créé, créez le manuellement juse pour le TP : `mkdir __pycache__`
 
 ### Supprimer un fichier
 
