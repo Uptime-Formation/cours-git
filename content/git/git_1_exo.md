@@ -124,8 +124,9 @@ git config --global user.name "<votre nom>"
 git config --global user.email "<votre email>"
 ```
 
-- Pour créer un commit on utilise la commande `git commit -m "<message_de_commit>"` (_commit_ signifie s'engager alors réfléchissez avant de lancer cette commande !). Généralement on utilise le message `initial commit` pour le premier commit d'un dépôt. Valider la version courante.
-- Lancez un status pour voir l'état du dépôt. Que constate-t-on ?
+- Pour créer un commit on utilise la commande `git commit -m "<message_de_commit>"` (_commit_ signifie s'engager alors réfléchissez avant de lancer cette commande !). Utilisons le message `"Ceci est mon premier commit"` pour le premier commit d'un dépôt. Valider la version courante.
+- Lancez un `git status` pour voir l'état du dépôt. Que constate-t-on ?
+- Lancez `git log` pour observer votre premier commit.
 
 ### Commit de tous les fichiers
 
@@ -135,7 +136,7 @@ git config --global user.email "<votre email>"
 
 - A quoi sert le dossier `__pycache__` ? Que faire avec ce dossier ?
 
-- Si le dossier `__pycache__` n'a pas été créé, créez le manuellement juse pour le TP : `mkdir __pycache__`
+(Si le dossier `__pycache__` n'a pas été créé, créez le manuellement juse pour le TP : `mkdir __pycache__`)
 
 ### Supprimer un fichier
 
