@@ -17,7 +17,7 @@ Il s'agit d'un dépôt exemple d'une application de microblogging (comme Twitter
 
 - Installez ce qui est nécessaire pour l'application avec les commandes :
 
-````bash
+```bash
 sudo apt install python3-pip
 pip3 install -r requirements.txt
 echo "PATH=~/.local/bin:$PATH" >> ~/.bashrc
@@ -85,7 +85,7 @@ Nous allons maintenant créer une branche en repartant du début du projet pour 
 
 ```python
 <li><a href="{{ url_for('main.about_page') }}">{{ _('About') }}</a></li>
-````
+```
 
 `app/main/routes.py` :
 
