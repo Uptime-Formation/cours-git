@@ -1,5 +1,5 @@
 ---
-title: "Uptime Formation"
+title: "IB Formation"
 ---
 
 # {{< param globalTitle >}}

@@ -1,6 +1,6 @@
 baseURL = "https://git.uptime-formation.fr/"
 languageCode = "fr-FR"
-title = "Formations Uptime"
+title = "Formations IB"
 theme = ["hugo-theme-learn", "reveal-hugo"]
 
 # Pour la fonctionnalité de recherche
