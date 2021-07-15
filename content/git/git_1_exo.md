@@ -167,7 +167,7 @@ Le problème avec la suppression de `__pycache__` de la partie précédente est 
 - Pour corriger l'historique du dépôt nous aimerions revenir en arrière.
 
 - Utilisez `git reset` avec `HEAD~2` pour revenir deux commits en arrière (nous parlerons de `HEAD` plus tard).
-- Faites `git status`. Normalement vous devriez avoir deux fichiers non suivis `.gitignore` et `multiplication.py`. Git vient de réinitialiser les ajouts des deux commits précédents.
+- Faites `git status`. Normalement vous devriez avoir un seul fichier non suivi `.gitignore`. Git vient de réinitialiser les ajouts des deux commits précédents.
 - Constatez dans Git Graph que seul reste le premier commit qui est toujours là.
 - Ajouter et _committez_ tous les fichiers non suivis du dépôt.
 - Vérifier que **`__pycache__`** n'apparaît pas dans l'historique.
