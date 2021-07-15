@@ -37,7 +37,7 @@ flask db upgrade
 
 - Quel est le premier commit du dépôt ? A quoi sert-il ?
 
-- Utilisez la commande `git blame` sur le fichier `config.py`. Cette commande est très utile quand on travaille à plusieurs car elle permet de savoir à qui s'adresser lorsqu'on cherche à comprendre le code ou qu'on a trouvé un bug.
+- Utilisez la commande `git blame` sur le fichier `app/main/routes.py`. Cette commande est très utile quand on travaille à plusieurs car elle permet de savoir à qui s'adresser lorsqu'on cherche à comprendre le code ou qu'on a trouvé un bug.
 
 - Installez `tig` qui est un utilitaire pour explorer un dépôt depuis le terminal.
 - Installez les extensions VSCode suivantes pour explorer le dépôt depuis VSCode :
