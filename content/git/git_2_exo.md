@@ -15,9 +15,18 @@ Il s'agit d'un dépôt exemple d'une application de microblogging (comme Twitter
 
 ## Explorer le dépôt
 
-- Installez ce qui est nécessaire pour l'application avec la commande `pip install -r requirements.txt`
+- Installez ce qui est nécessaire pour l'application avec les commandes :
 
-- Lancez l'application avec les commandes `flask db init` et `flask run`.
+````bash
+sudo apt install python3-pip
+pip3 install -r requirements.txt
+echo "PATH=~/.local/bin:$PATH" >> ~/.bashrc
+source ~/.bashrc
+flask db init
+flask db upgrade
+```
+
+- Lancez l'application avec la commande `flask run`.
 
 - Utilisez l'application en visitant l'adresse `http://localhost:5000/`, puis créez-vous un compte et postez un message.
 
@@ -76,7 +85,7 @@ Nous allons maintenant créer une branche en repartant du début du projet pour 
 
 ```python
 <li><a href="{{ url_for('main.about_page') }}">{{ _('About') }}</a></li>
-```
+````
 
 `app/main/routes.py` :
 
